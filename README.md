@@ -6,7 +6,15 @@ A fast, minimalist disk usage explorer for Windows: a single native executable w
 
 ## Download
 
-Get `DiskFrontier.exe` from the **[latest release](https://github.com/paulusTheHub/diskfrontier-releases/releases/latest)**: a 64-bit build for Windows 10 and 11. There is no installer: copy it anywhere and run it. The exe is unsigned, so Windows SmartScreen may warn the first time you run it ("More info" → "Run anyway").
+**[Download DiskFrontier.exe](https://github.com/paulusTheHub/diskfrontier-releases/releases/latest/download/DiskFrontier.exe)** (latest version, 64-bit, Windows 10 and 11). There is no installer: copy it anywhere and run it.
+
+On the [releases page](https://github.com/paulusTheHub/diskfrontier-releases/releases/latest), the file to download is **DiskFrontier.exe** under *Assets*. The "Source code" zip files GitHub adds to every release contain only this README.
+
+### First run
+
+DiskFrontier is not yet code-signed, so the first time you run a downloaded copy Windows shows **"Windows protected your PC"** with only a *Don't run* button. Click **More info**, then **Run anyway**. Windows remembers the choice for that file.
+
+Alternatively, before running it: right-click `DiskFrontier.exe` → **Properties** → tick **Unblock** → **OK**.
 
 Settings are kept in the registry under `HKCU\Software\Choice Computing\DiskFrontier`, and saved indexes in `%LOCALAPPDATA%\DiskFrontier`.
 
